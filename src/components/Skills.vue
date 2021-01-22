@@ -7,8 +7,7 @@
           </li>
       </ul>
 
-      <p v-if="skills.length >= 1"> You have more than 1 skills </p>
-      <p v-else> You have less than or equal to 1 skill </p>
+      <div v-bind:style=" { backgroundColor: bgColor, width: bgWidth, height: bgHeight }"></div>
     </div>
   </div>
 </template>
@@ -21,13 +20,23 @@ export default {
       skills: [
         { "skill": "Vue.js"},
         { "skill": "Frontend Developer"}
-      ]
+      ],
+      bgColor: 'yellow',
+      bgWidth: '100%',
+      bgHeight: '30px'
     }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style src="./Skills.css" scoped>
-
+<style scoped>
+  .alert {
+    background: yellow;
+    width: 100%;
+    height: 30px;
+  }
+  .another-class {
+    border: 5px solid black;
+  }
 </style>
