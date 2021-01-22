@@ -1,5 +1,10 @@
 # vue-skills
 
+## Link to the written Verision
+```
+https://coursetro.com/posts/code/136/Vue-CSS-Tutorial---Class-and-Style-Binding
+```
+
 ## Project setup
 ```
 npm install
