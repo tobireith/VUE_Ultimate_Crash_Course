@@ -1,9 +1,11 @@
 # vue-skills
 
-## Link to the written Verision
+## Link to the written Verision of the Script
 ```
 https://coursetro.com/posts/code/136/Vue-CSS-Tutorial---Class-and-Style-Binding
 ```
+
+Bearbeitet von 21.01.2021 - 23.01.2021
 
 ## Project setup
 ```
